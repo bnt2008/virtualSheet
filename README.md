@@ -1,12 +1,16 @@
 
 # virtualSheet
-This is a project to make an easy way to interact with tables in Excel VBA. It allows for addressing a table in a spreadsheet using a simple syntax, as well as complex filtering and searching. In most cases a range is returned so that all properties of the cells are available.
+This is a project to make an easy way to interact with tables in Excel VBA. It allows for addressing cells arranged as a table in excel using a simple VBA syntax, as well as complex filtering and searching. In most cases a range is returned so that all properties of the cells are available. The virtualSheet only exists as a reference to ranges on a spreadsheet, and thus leaves no trace on the spreadsheet once it goes out of scope.
 
 Some features:
 *Search by word content
+
 *Use a list of synonyms for searching
+
 *Attempting to match while ignoring plurals
+
 *Match using an arbitrary function
+
 *Allows a list of words to ignore when searching
 
 The excel spreadsheet provides documentation for these features as well as the class virtualSheets
