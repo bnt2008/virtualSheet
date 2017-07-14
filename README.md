@@ -6,7 +6,7 @@ Some features:
 
 *Search by word content (i.e. "brown dog" matches "Jaimie's little dog is brown")
 
-*Use a list of synonyms for searching
+*Use a list of synonyms for searching (i.e. "brown canine" can match "Jaimie's little dog is brown")
 
 *Attempting to match while ignoring plurals
 
